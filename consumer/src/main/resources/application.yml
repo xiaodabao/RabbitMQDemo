@@ -1,0 +1,8 @@
+server:
+  port: 8888
+  tomcat:
+    uri-encoding: UTF-8
+    max-connections: 2000
+    max-threads: 1500
+  servlet:
+    context-path: /consumer
